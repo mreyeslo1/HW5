@@ -124,7 +124,7 @@ while True:
 				
     coordi=((lastcoor-firstcoor)/2)+firstcoor
     print coordi	 
-    cv2.circle(img, (100,100),100,255,-1)					
+    cv2.circle(img,(200,coordi), 63, (255,255,255), -1) 					
     # Sets reference to robot
     r.put(ref);
 	
