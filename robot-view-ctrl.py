@@ -115,16 +115,19 @@ while True:
 #for loop goes through y to find green 
 #checks for green 
 		if((img.item(200,i,1) > 100) and (img.item(200,i,0) == 0) and (img.item(200,i,2) == 0)):
+#print if green
 			print 'found green'
 			if (flag == 0):
 				firstcoor = i
 				flag=1
 			if (i>firstcoor):
 				lastcoor = i
-				
+	#this algorithm get the middle point of the circle			
     coordi=((lastcoor-firstcoor)/2)+firstcoor
-    print coordi	 
-    cv2.circle(img, (100,100),100,255,-1)					
+    print coordi
+# i try and draw but it does not let me
+    cv2.line(img, (100, 100), (200, 200), (0,0,0)) 
+    cv2.circle(img,(255,255), 100, 111)					
     # Sets reference to robot
     r.put(ref);
 	

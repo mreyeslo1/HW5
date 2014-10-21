@@ -121,10 +121,12 @@ while True:
 				flag=1
 			if (i>firstcoor):
 				lastcoor = i
-				
+	#this algorithm get the middle point of the circle			
     coordi=((lastcoor-firstcoor)/2)+firstcoor
-    print coordi	 
-    cv2.circle(img,(200,coordi), 63, (255,255,255), -1) 					
+    print coordi
+# i try and draw but it does not let me
+    cv2.line(img, (100, 100), (200, 200), (0,0,0)) 
+    cv2.circle(img,(255,255), 100, 111)					
     # Sets reference to robot
     r.put(ref);
 	
