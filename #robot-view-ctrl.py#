@@ -117,11 +117,11 @@ while True:
 #checks for green 
 			if((img.item(j,i,1) > 100) and (img.item(j,i,0) == 0) and (img.item(j,i,2) == 0)):
 				print 'found green'
-
+				if flag==0:
+					firstcoor=
 		 
 					
     # Sets reference to robot
-    print firstcoor
     r.put(ref);
 
     # Sleeps

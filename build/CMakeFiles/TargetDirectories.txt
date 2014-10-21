@@ -1,0 +1,5 @@
+/home/student/Desktop/hw5/diff/build/CMakeFiles/camera_dump.dir
+/home/student/Desktop/hw5/diff/build/CMakeFiles/camera_move.dir
+/home/student/Desktop/hw5/diff/build/CMakeFiles/model_diff_drive.dir
+/home/student/Desktop/hw5/diff/build/CMakeFiles/system_gui.dir
+/home/student/Desktop/hw5/diff/build/CMakeFiles/video_listener.dir
